@@ -8,3 +8,6 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# AI 工具本地配置
+.claude/

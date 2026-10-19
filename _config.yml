@@ -1,16 +1,16 @@
-title: LessUp
+title: holtwood
 description: AI Infrastructure & HPC Developer — CUDA Kernels, LLM Inference, Systems Programming
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-repository: holtwood/LessUp
+repository: holtwood/holtwood
 show_downloads: false
 
 # SEO & metadata
-# 注意：LessUp 是仓库名，账号已由 LessUp 更名为 holtwood
+# 注意：仓库名与账号名一致（holtwood/holtwood），这是 GitHub Profile README 仓库
 url: https://holtwood.github.io
-baseurl: /LessUp
+baseurl: /holtwood
 lang: en
 author: holtwood
 

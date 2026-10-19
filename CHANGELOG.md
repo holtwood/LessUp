@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-19
+- 账号与仓库名收敛：`LessUp` 账号更名 `holtwood`、仓库更名 `holtwood`（仓库名与账号名一致）
+- `_config.yml` 同步规范地址：`repository: holtwood/holtwood`、`baseurl: /holtwood`、`title: holtwood`（修复改名后 Pages 资源路径）
+- `index.md` 全部链接更新：`LessUp/*` → `holtwood/*` 或迁移后的组织地址；核心仓库表补 cuda-foundations / trifuse，替换旧名（aicl-lab / cuflash-attn / paged-infer）
+- `CLAUDE.md` 同步仓库名与 Pages 地址
+- 移除 `.claude/settings.local.json`（AI 工具本地配置，不应公开），`.gitignore` 增加 `.claude/`
+
 ## 2026-08-19
 - 修复全部迁移前仓库链接：5 个自动重定向链接（fq-compressor、fastq-tools、micos-2024、awesome-bioinfo-algorithms、awesome-compression）与 8 个重定向失效链接（wiki-bioinfo、compress-kit、bookmarks-cleaner、graph-viewer、meta-human、mind-gym、yolo-toys、webrtc）改为规范组织地址，stars badge 同步更新
 - 移除 4 个已删除仓库的展示（sgemm-optimization、the-art-of-hpc-zh、cursor-rules、awesome-claude-skills-zh），用现存仓库卡片（cudaimg、TensorTonic-Solutions、bookmarks-manager、brave-sync-notes）替换

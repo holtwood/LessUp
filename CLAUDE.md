@@ -4,15 +4,15 @@
 
 ## 项目定位
 
-**GitHub Profile 主页仓库**（账号 `holtwood`，仓库名 `LessUp`）—— 个人主页与成果展示，呈现 AI Infrastructure / HPC 方向的项目、经历与技术栈。
+**GitHub Profile 主页仓库**（账号 `holtwood`，仓库名 `holtwood`）—— 个人主页与成果展示，呈现 AI Infrastructure / HPC 方向的项目、经历与技术栈。
 
 - 主页：<https://github.com/holtwood>
-- Pages 站点：<https://holtwood.github.io/LessUp/>
+- Pages 站点：<https://holtwood.github.io/holtwood/>
 
 ## 仓库结构
 
 ```text
-LessUp/
+holtwood/
 ├── README.md              # 主页展示页（GitHub Profile 渲染此文件）
 ├── index.md               # GitHub Pages 站点入口
 ├── _config.yml            # Jekyll 配置（cayman 主题 + SEO）
@@ -57,7 +57,7 @@ LessUp/
 
 ## 注意事项
 
-1. **展示名 ≠ 仓库名**：`_config.yml` 的 `title` / `author` 是展示名，`baseurl: /LessUp` 是仓库名。账号已由 `LessUp` 更名为 `holtwood`，`repository` / `url` 字段须与当前账号一致。
+1. **展示名 ≠ 仓库名**：`_config.yml` 的 `title` / `author` 是展示名，`baseurl: /holtwood` 与仓库名一致。账号已由 `LessUp` 更名为 `holtwood`、仓库已更名为 `holtwood`，`repository` / `url` / `baseurl` 字段须与当前名一致。
 2. **workflow 中的账号名必须用当前名**：`snake.yml` 的 `github_user_name` 若写成旧名 `LessUp`，GitHub API 会报 `Could not resolve to a User with the login of 'LessUp'`，导致该 workflow 每次运行都失败。
 3. **徽章与统计组件依赖第三方服务**（shields.io、stats 卡片等），展示异常时优先检查服务可用性。
 4. **`output` 分支由机器人维护**，不要手动提交。
